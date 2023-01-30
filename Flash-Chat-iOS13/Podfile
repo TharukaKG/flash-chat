@@ -1,0 +1,13 @@
+
+platform :ios, '13.0'
+
+target 'Flash Chat iOS13' do
+  use_frameworks!
+
+  pod 'CLTypingLabel', '~> 0.4.0'
+  
+  # For example, to use Firebase Authentication and Cloud Firestore
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+
+end
